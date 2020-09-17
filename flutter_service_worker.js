@@ -12,9 +12,14 @@ const RESOURCES = {
 "assets/assets/images/article.jpeg": "d1e897e836be4e3552fb9cfd2f16bfad",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
 "assets/assets/images/livre/couverture.png": "7c7a6b4ac69dbd2416dd59d4c82f8b4e",
-"assets/assets/images/onParleDeNous/outside.png": "62e538fa6553e96e35b4a2d0b946668b",
-"assets/assets/images/onParleDeNous/123Savoie.jpeg": "3747246e2ce35fc20acddf1084eb91b4",
-"assets/assets/images/onParleDeNous/france3.jpg": "50512d1e7755ba9cae6a0c085dda769a",
+"assets/assets/images/onParleDeNous/france3.png": "fd51d1035fbf9e097cb2bcd7d4ba6700",
+"assets/assets/images/onParleDeNous/hebdoSavoie.png": "7c03b1f67d84cb88c72c52eb7b71469f",
+"assets/assets/images/onParleDeNous/outside.png": "7c1f51451174c605e307c83422b513bb",
+"assets/assets/images/onParleDeNous/arravis.png": "dfd2298010b3164b0032dce79aa9a71f",
+"assets/assets/images/onParleDeNous/voyage.png": "dc0c3eb95a5f23b8e8352377e43ea980",
+"assets/assets/images/onParleDeNous/ghm.png": "ec2382aadc819bb41e8ecf5146465f92",
+"assets/assets/images/onParleDeNous/123Savoie.png": "2950827f3f957f27b6e08d059ee74b67",
+"assets/assets/images/onParleDeNous/sportTourisme.png": "22291a0de9855e316e2a8bfa6606b649",
 "assets/assets/images/gravirmontblanc.jpg": "0f24d182fe7ced54e1ff6352e7614383",
 "assets/assets/images/presseEcrite/nationalGeo.png": "d1ee0f956d14ba1a01712ed688227f9c",
 "assets/assets/images/presseEcrite/naturetrail.jpg": "e0d6be5653dd8a7c086f6d088e2ae0f6",
@@ -31,17 +36,18 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "1abf2928afc1554fad52c181dcd6b161",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "8aa50a7165a25acf074a4f8e9d69fa28",
-"assets/NOTICES": "283ba2d03483aad177b451067bc8a946",
-"assets/AssetManifest.json": "5f2ea356edf51e8b721301eec3d1b80d",
+"assets/NOTICES": "7f7bab09567d9094552a02ad10163937",
+"assets/AssetManifest.json": "c96ee1c4f49cf8794ee587c569e819e5",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
-"assets/fonts/Montserrat-Regular.ttf": "ee6539921d713482b8ccd4d0d23961bb",
-"assets/fonts/Electrolize-Regular.ttf": "1be3e0aaeb2bbd1985615a49da7f2eaf",
-"assets/FontManifest.json": "7c3cac6786c1665317044cfa0bf50f2e",
+"assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
+"assets/fonts/Karla-Regular.ttf": "1b55fee684d61bfeaa762684931b1bc9",
+"assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
+"assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "cf5ef7e500e740e20c324961e23fbe24",
+"main.dart.js": "146d0ee87dc5722c57bae1c5b5f38dd2",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "4d4f9089cd5c136a8264cfe8a996a962",
-"/": "4d4f9089cd5c136a8264cfe8a996a962"
+"index.html": "1bf17c19964b56e843cdf200c340f22a",
+"/": "1bf17c19964b56e843cdf200c340f22a"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -53,13 +59,12 @@ const CORE = [
 "assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
-
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a 'reload' param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'reload'})));
+      return cache.addAll(
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
@@ -74,7 +79,6 @@ self.addEventListener("activate", function(event) {
       var tempCache = await caches.open(TEMP);
       var manifestCache = await caches.open(MANIFEST);
       var manifest = await manifestCache.match('manifest');
-
       // When there is no prior manifest, clear the entire cache.
       if (!manifest) {
         await caches.delete(CACHE_NAME);
@@ -88,7 +92,6 @@ self.addEventListener("activate", function(event) {
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
         return;
       }
-
       var oldManifest = await manifest.json();
       var origin = self.location.origin;
       for (var request of await contentCache.keys()) {
@@ -129,21 +132,26 @@ self.addEventListener("fetch", (event) => {
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
-  if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
+  if (key.indexOf('?v=') != -1) {
+    key = key.split('?v=')[0];
+  }
+  if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
   // If the URL is not the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
   }
+  // If the URL is the index.html, perform an online-first request.
+  if (key == '/') {
+    return onlineFirst(event);
+  }
   event.respondWith(caches.open(CACHE_NAME)
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache. Ensure the resources are not cached
-        // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'reload'});
-        return response || fetch(modifiedRequest).then((response) => {
+        // lazily populate the cache.
+        return response || fetch(event.request).then((response) => {
           cache.put(event.request, response.clone());
           return response;
         });
@@ -158,7 +166,6 @@ self.addEventListener('message', (event) => {
   if (event.data === 'skipWaiting') {
     return self.skipWaiting();
   }
-
   if (event.message === 'downloadOffline') {
     downloadOffline();
   }
@@ -183,4 +190,26 @@ async function downloadOffline() {
     }
   }
   return contentCache.addAll(resources);
+}
+
+// Attempt to download the resource online before falling back to
+// the offline cache.
+function onlineFirst(event) {
+  return event.respondWith(
+    fetch(event.request).then((response) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    }).catch((error) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        return cache.match(event.request).then((response) => {
+          if (response != null) {
+            return response;
+          }
+          throw error;
+        });
+      });
+    })
+  );
 }
