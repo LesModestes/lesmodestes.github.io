@@ -3,12 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "icons/Icon-192.png": "6049b11f84a586d32c5f6fd3c17527e5",
+  "version.json": "d7803ce173332d8d1f276153abfd5059",
+"icons/Icon-192.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "icons/Icon-512.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
+"assets/assets/pdf/Carte%2520Cadeau.pdf": "a62b5e28f129f7891d0e2992cd407831",
 "assets/assets/images/article.jpeg": "d1e897e836be4e3552fb9cfd2f16bfad",
 "assets/assets/images/jeu.jpg": "e80f9f22de6de880d57c36996f675bd0",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
@@ -18,6 +20,7 @@ const RESOURCES = {
 "assets/assets/images/modestes/kilianmanjaro.png": "39ad8057232605f30ca53010e6b4b7b2",
 "assets/assets/images/modestes/agnespurna.png": "47ec2273d53d4926a7098d06f8ea06f0",
 "assets/assets/images/jeu/ulule.png": "7415d765491ca04b86c5f7443eebb10f",
+"assets/assets/images/jeu/carteCadeau.png": "7898b50faf73a607e8338f4db1b764a4",
 "assets/assets/images/jeu/display.gif": "f8b989f74c90c73531a7f4c51eaa59b2",
 "assets/assets/images/gravirmontblanc.jpg": "0f24d182fe7ced54e1ff6352e7614383",
 "assets/assets/images/flutter.png": "cd80d077e32688494d86dec1a7be576e",
@@ -34,6 +37,7 @@ const RESOURCES = {
 "assets/assets/images/article/onParleDeNous/arravis.png": "dfd2298010b3164b0032dce79aa9a71f",
 "assets/assets/images/article/onParleDeNous/voyage.png": "dc0c3eb95a5f23b8e8352377e43ea980",
 "assets/assets/images/article/onParleDeNous/ghm.png": "ec2382aadc819bb41e8ecf5146465f92",
+"assets/assets/images/article/onParleDeNous/onAcheteFrancais.png": "852cae4c8b850675503de1f5bae4c410",
 "assets/assets/images/article/onParleDeNous/123Savoie.png": "2950827f3f957f27b6e08d059ee74b67",
 "assets/assets/images/article/onParleDeNous/sportTourisme.png": "22291a0de9855e316e2a8bfa6606b649",
 "assets/assets/images/article/liveMontBlanc.png": "6d16483a52299b0b7b0b96b10d281b13",
@@ -46,18 +50,18 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "1abf2928afc1554fad52c181dcd6b161",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "8aa50a7165a25acf074a4f8e9d69fa28",
-"assets/NOTICES": "2e7f76798bd334b88ac2a1741e8a92a0",
-"assets/AssetManifest.json": "cc6a0601d0da0c194cd23e1e24e6f235",
-"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
+"assets/NOTICES": "994275024807426566852124a2f7cf11",
+"assets/AssetManifest.json": "bc805445362bea51ca841be19d976f3e",
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
 "assets/fonts/Karla-Regular.ttf": "1b55fee684d61bfeaa762684931b1bc9",
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "10339107d3c6c9a536401f418a8b755a",
+"main.dart.js": "75c2079238208827a549e05549d34c86",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "fddd1830a171df5159596006bfd7e930",
-"/": "fddd1830a171df5159596006bfd7e930"
+"index.html": "d80019da794cb9fbddb86f3085a40a7e",
+"/": "d80019da794cb9fbddb86f3085a40a7e"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -71,6 +75,7 @@ const CORE = [
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
@@ -139,6 +144,9 @@ self.addEventListener("activate", function(event) {
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
+  if (event.request.method !== 'GET') {
+    return;
+  }
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
@@ -148,9 +156,10 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
-  // If the URL is not the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list then return to signal that the
+  // browser should take over.
   if (!RESOURCES[key]) {
-    return event.respondWith(fetch(event.request));
+    return;
   }
   // If the URL is the index.html, perform an online-first request.
   if (key == '/') {
@@ -174,10 +183,12 @@ self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
   if (event.data === 'skipWaiting') {
-    return self.skipWaiting();
+    self.skipWaiting();
+    return;
   }
-  if (event.message === 'downloadOffline') {
+  if (event.data === 'downloadOffline') {
     downloadOffline();
+    return;
   }
 });
 
