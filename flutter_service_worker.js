@@ -10,7 +10,7 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
-"assets/assets/pdf/Carte%2520Cadeau.pdf": "a62b5e28f129f7891d0e2992cd407831",
+"assets/assets/pdf/CarteCadeau.pdf": "a62b5e28f129f7891d0e2992cd407831",
 "assets/assets/images/article.jpeg": "d1e897e836be4e3552fb9cfd2f16bfad",
 "assets/assets/images/jeu.jpg": "e80f9f22de6de880d57c36996f675bd0",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
@@ -51,17 +51,17 @@ const RESOURCES = {
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "8aa50a7165a25acf074a4f8e9d69fa28",
 "assets/NOTICES": "994275024807426566852124a2f7cf11",
-"assets/AssetManifest.json": "bc805445362bea51ca841be19d976f3e",
+"assets/AssetManifest.json": "3300d64b097f322c8922b623d6c40539",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
 "assets/fonts/Karla-Regular.ttf": "1b55fee684d61bfeaa762684931b1bc9",
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "75c2079238208827a549e05549d34c86",
+"main.dart.js": "4cd7dfdf505bf34280b35c217e554374",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "d80019da794cb9fbddb86f3085a40a7e",
-"/": "d80019da794cb9fbddb86f3085a40a7e"
+"index.html": "28c7ae6123ffe6cc08d2d7913c7c3b8a",
+"/": "28c7ae6123ffe6cc08d2d7913c7c3b8a"
 };
 
 // The application shell files that are downloaded before a service worker can
