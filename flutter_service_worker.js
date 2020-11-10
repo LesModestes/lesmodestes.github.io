@@ -58,10 +58,10 @@ const RESOURCES = {
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "4cd7dfdf505bf34280b35c217e554374",
+"main.dart.js": "d5d5d040d17d7b468a90df7e1ef6e263",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "28c7ae6123ffe6cc08d2d7913c7c3b8a",
-"/": "28c7ae6123ffe6cc08d2d7913c7c3b8a"
+"index.html": "6c2c6d831f8c987d6fb3dde6d94abed0",
+"/": "6c2c6d831f8c987d6fb3dde6d94abed0"
 };
 
 // The application shell files that are downloaded before a service worker can

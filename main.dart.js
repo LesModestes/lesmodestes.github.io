@@ -53513,7 +53513,7 @@ K.OO.prototype={
 $0:function(){T.hq(" https://fr.ulule.com/le-jeu-montagne/")},
 $S:0}
 K.OP.prototype={
-$0:function(){var s=W.a4W("assets/pdf/CarteCadeau.pdf")
+$0:function(){var s=W.a4W("https://github.com/LesModestes/lesmodestes.github.io/raw/master/assets/assets/pdf/CarteCadeau.pdf")
 s.download="Carte Cadeau.pdf"
 s.click()},
 $S:0}
