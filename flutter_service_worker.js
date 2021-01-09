@@ -9,11 +9,12 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/assets/images/article.jpeg": "d1e897e836be4e3552fb9cfd2f16bfad",
 "assets/assets/images/jeu.jpg": "e80f9f22de6de880d57c36996f675bd0",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
 "assets/assets/images/livre/couverture.png": "7c7a6b4ac69dbd2416dd59d4c82f8b4e",
+"assets/assets/images/modestes/marie.png": "3901b8ad72f33dd3a5e7894e56b491b8",
 "assets/assets/images/modestes/choyoupi.jpg": "5158cae9f581b9dc3c0eb358f0838c0c",
 "assets/assets/images/modestes/emmalaya.png": "5c2046faf06b5769eb7a4d1fc5b8ea66",
 "assets/assets/images/modestes/kilianmanjaro.png": "39ad8057232605f30ca53010e6b4b7b2",
@@ -49,18 +50,18 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "1abf2928afc1554fad52c181dcd6b161",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "8aa50a7165a25acf074a4f8e9d69fa28",
-"assets/NOTICES": "994275024807426566852124a2f7cf11",
-"assets/AssetManifest.json": "503f76e6d0fe14bbecdb1fa622472ff5",
+"assets/NOTICES": "19e61d69c413d278f581a68edf6735d8",
+"assets/AssetManifest.json": "7a8f42a42f4444f4a15ba8e7c5fcdb37",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
 "assets/fonts/Karla-Regular.ttf": "1b55fee684d61bfeaa762684931b1bc9",
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "a6cd22643c36d6a8cc1f06e84175fd17",
+"main.dart.js": "4534ac9c0912ed0a7a379c4b3f8be442",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "3b37c81b9a5423f86b870c5161802ee9",
-"/": "3b37c81b9a5423f86b870c5161802ee9"
+"index.html": "12e8f0663b4d7a08a633c00c6a85e52e",
+"/": "12e8f0663b4d7a08a633c00c6a85e52e"
 };
 
 // The application shell files that are downloaded before a service worker can
