@@ -50,7 +50,7 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "1abf2928afc1554fad52c181dcd6b161",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "8aa50a7165a25acf074a4f8e9d69fa28",
-"assets/NOTICES": "ff59a344ef5aa6c991bb0904fed20fc9",
+"assets/NOTICES": "ca3ac2a2eca97e3405760915aa835c5d",
 "assets/AssetManifest.json": "7a8f42a42f4444f4a15ba8e7c5fcdb37",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
@@ -58,10 +58,10 @@ const RESOURCES = {
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
-"main.dart.js": "b9976a183ff5ed0c1ed3333a630cf0df",
+"main.dart.js": "a3c255fe45f53b69bbb3f12f60175efe",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "51c0a92d48e36d58e30ec6ae37ad4041",
-"/": "51c0a92d48e36d58e30ec6ae37ad4041"
+"index.html": "88821cec3f527efb89472044c604394b",
+"/": "88821cec3f527efb89472044c604394b"
 };
 
 // The application shell files that are downloaded before a service worker can
