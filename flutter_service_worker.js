@@ -3,16 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "Robots.txt": "96108642adb6973a93e0c4af826d1d11",
-"version.json": "d7803ce173332d8d1f276153abfd5059",
+  "version.json": "d7803ce173332d8d1f276153abfd5059",
 "icons/Icon-192.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "icons/Icon-512.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/assets/images/article.jpeg": "b20a171dc4bcc429528144ae29751826",
-"assets/assets/images/jeu.jpg": "b2b4c881cd3c409abfc76a9014b3fc3d",
+"assets/assets/images/article.jpeg": "017c4666c662f878250d1ecc871d3897",
+"assets/assets/images/jeu.jpg": "9fd663c34e660836c025f87cbc6735c8",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
 "assets/assets/images/livre/couverture.png": "7c7a6b4ac69dbd2416dd59d4c82f8b4e",
 "assets/assets/images/modestes/marie.png": "3901b8ad72f33dd3a5e7894e56b491b8",
@@ -24,8 +23,7 @@ const RESOURCES = {
 "assets/assets/images/jeu/carteCadeau.png": "7898b50faf73a607e8338f4db1b764a4",
 "assets/assets/images/jeu/display.gif": "f8b989f74c90c73531a7f4c51eaa59b2",
 "assets/assets/images/gravirmontblanc.jpg": "0f24d182fe7ced54e1ff6352e7614383",
-"assets/assets/images/flutter.png": "5342e45dadbaf565cf835216182c747e",
-"assets/assets/images/lesmodestes.jpg": "1dad33770322398ba731963ab51de5d3",
+"assets/assets/images/lesmodestes.jpg": "0ea2c06b3ba2aed3a0cf6cbc933ad29c",
 "assets/assets/images/main.jpg": "26f26edd9f8cd3a15fb060c9698dfa6e",
 "assets/assets/images/article/TVMontBlanc.png": "c97b5a7bd13d47d73872a65707c6d4de",
 "assets/assets/images/article/medium2.jpeg": "27a12c5bd4a0bee16d0f3132764e77aa",
@@ -52,7 +50,7 @@ const RESOURCES = {
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "351145ffaf082d659fb827dd52569938",
 "assets/NOTICES": "d991edcb66c107fd0d62081ebdd732eb",
-"assets/AssetManifest.json": "7a8f42a42f4444f4a15ba8e7c5fcdb37",
+"assets/AssetManifest.json": "3eadedd22d6619bc244588c120313a5a",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
 "assets/fonts/Karla-Regular.ttf": "1b55fee684d61bfeaa762684931b1bc9",
@@ -61,8 +59,9 @@ const RESOURCES = {
 "manifest.json": "af55192ec7b2a3f018f62347440c5b09",
 "main.dart.js": "01aba4b8851688ef97e3f38fa20c9664",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "a3eae85f4464533d193c5e76b878cc3d",
-"/": "a3eae85f4464533d193c5e76b878cc3d"
+"index.html": "68723189804766b1e408a8e541e8897c",
+"/": "68723189804766b1e408a8e541e8897c",
+"robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
 // The application shell files that are downloaded before a service worker can
