@@ -49,7 +49,7 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "c7a2c9eb4ddc0d05ae6a4a6418cfc06c",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "351145ffaf082d659fb827dd52569938",
-"assets/NOTICES": "9ee2d19704cd773fceee7f27eba5a11a",
+"assets/NOTICES": "d028a8c1f2491e8793fdddfe7cc9cd87",
 "assets/AssetManifest.json": "3eadedd22d6619bc244588c120313a5a",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
@@ -57,10 +57,10 @@ const RESOURCES = {
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
-"main.dart.js": "009130d4f93f694a88fad34250f29fbf",
+"main.dart.js": "e28a275bdbccdfe341edf98b704fd4c2",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "f122201121b1d9021a730ecbac1dd09a",
-"/": "f122201121b1d9021a730ecbac1dd09a",
+"index.html": "8c471e0032c6c8eafa3cfa07f4a27cf5",
+"/": "8c471e0032c6c8eafa3cfa07f4a27cf5",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
