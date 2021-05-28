@@ -57,10 +57,10 @@ const RESOURCES = {
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
-"main.dart.js": "3787e3487ce934d20534d76376f07734",
+"main.dart.js": "009130d4f93f694a88fad34250f29fbf",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "5b2c1229af7a5d53245536881e25b1a6",
-"/": "5b2c1229af7a5d53245536881e25b1a6",
+"index.html": "f122201121b1d9021a730ecbac1dd09a",
+"/": "f122201121b1d9021a730ecbac1dd09a",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
