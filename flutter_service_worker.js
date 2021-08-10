@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "19874297aad007f1d0124abbdc8f7c83",
+  "version.json": "9cfa6b368ab88dd4317e50864acf834f",
 "icons/Icon-192.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "icons/Icon-512.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
@@ -11,7 +11,7 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/assets/images/article.jpeg": "017c4666c662f878250d1ecc871d3897",
-"assets/assets/images/jeu.jpg": "9fd663c34e660836c025f87cbc6735c8",
+"assets/assets/images/jeu.jpg": "89281695ee32e37230cd2b8fb6450709",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
 "assets/assets/images/livre/couverture.png": "7c7a6b4ac69dbd2416dd59d4c82f8b4e",
 "assets/assets/images/modestes/marie.png": "3901b8ad72f33dd3a5e7894e56b491b8",
@@ -59,8 +59,8 @@ const RESOURCES = {
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
 "main.dart.js": "330c0248c6bcb8c69f54d023efa6906e",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "436eaa428a0a177fbedb65c77bc8ac5b",
-"/": "436eaa428a0a177fbedb65c77bc8ac5b",
+"index.html": "2f5fb3f6760a58ddcd40d6540e9a32f9",
+"/": "2f5fb3f6760a58ddcd40d6540e9a32f9",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
