@@ -59,8 +59,8 @@ const RESOURCES = {
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
 "main.dart.js": "330c0248c6bcb8c69f54d023efa6906e",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "2f5fb3f6760a58ddcd40d6540e9a32f9",
-"/": "2f5fb3f6760a58ddcd40d6540e9a32f9",
+"index.html": "482fb6e85fab758d5bf4af735b61a846",
+"/": "482fb6e85fab758d5bf4af735b61a846",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
