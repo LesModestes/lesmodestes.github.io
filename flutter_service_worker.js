@@ -11,7 +11,7 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/assets/images/article.jpeg": "017c4666c662f878250d1ecc871d3897",
-"assets/assets/images/jeu.jpg": "89281695ee32e37230cd2b8fb6450709",
+"assets/assets/images/jeu.jpg": "07774e72a524fc86cb6e9bc225c01d5a",
 "assets/assets/images/livre/editionmontblanc.png": "4e90bc654ef10f058354d2af310cc0e5",
 "assets/assets/images/livre/couverture.png": "7c7a6b4ac69dbd2416dd59d4c82f8b4e",
 "assets/assets/images/modestes/marie.png": "3901b8ad72f33dd3a5e7894e56b491b8",
@@ -59,8 +59,8 @@ const RESOURCES = {
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
 "main.dart.js": "330c0248c6bcb8c69f54d023efa6906e",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "482fb6e85fab758d5bf4af735b61a846",
-"/": "482fb6e85fab758d5bf4af735b61a846",
+"index.html": "e952fbf30bb3a86825289a8a5a1baeb1",
+"/": "e952fbf30bb3a86825289a8a5a1baeb1",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
