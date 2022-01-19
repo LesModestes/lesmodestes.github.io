@@ -3,12 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "65a522cbc469a6b4ead16bd0890645f0",
+  "version.json": "ebab018255804597dff037160fd94dfa",
 "icons/Icon-192.png": "6049b11f84a586d32c5f6fd3c17527e5",
 "icons/Icon-512.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "3241d1d9c15448a4da96df05f3292ffe",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/assets/images/article.jpeg": "017c4666c662f878250d1ecc871d3897",
 "assets/assets/images/jeu.jpg": "b879ab1fc078c6423a73c5673e364609",
@@ -49,7 +49,7 @@ const RESOURCES = {
 "assets/assets/images/article/medium3.png": "c7a2c9eb4ddc0d05ae6a4a6418cfc06c",
 "assets/assets/images/article/ennaturesimone0.jpg": "cb8ba1f4b1bd89f4c81703872557a6b6",
 "assets/assets/images/article/medium5.png": "351145ffaf082d659fb827dd52569938",
-"assets/NOTICES": "5b0090891a64a47f1a38c21a336093fe",
+"assets/NOTICES": "b7ee9b704865dc0a63a126ff0491f922",
 "assets/AssetManifest.json": "3eadedd22d6619bc244588c120313a5a",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/fonts/Adam-Medium.ttf": "113f8bcfa135c330a359a7fbe463c03a",
@@ -57,10 +57,14 @@ const RESOURCES = {
 "assets/fonts/Larizo%2520DEMO.ttf": "9c6f920792b39143f447cb1009dc8bd6",
 "assets/FontManifest.json": "912a4b9944bf0e81984de5d1363dd729",
 "manifest.json": "b9f4984eadf27ad2e6ddf709e400ad9d",
-"main.dart.js": "80269b4afc87ea982de542fd4d7be046",
+"main.dart.js": "16188a909ae30afca3af87de23e5eeb0",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
 "favicon.png": "6049b11f84a586d32c5f6fd3c17527e5",
-"index.html": "fe29d9755be53db0bfbf642e69974a53",
-"/": "fe29d9755be53db0bfbf642e69974a53",
+"index.html": "3cd5b17fe8e44de06c06c9f961cce05a",
+"/": "3cd5b17fe8e44de06c06c9f961cce05a",
 "robots.txt": "96108642adb6973a93e0c4af826d1d11"
 };
 
